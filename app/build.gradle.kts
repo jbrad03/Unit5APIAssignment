@@ -36,7 +36,9 @@ android {
 }
 
 dependencies {
-
+    implementation("com.loopj.android:android-async-http:1.4.10")
+    implementation("com.github.bumptech.glide:glide:4.11.0")
+    implementation("com.github.bumptech.glide:compiler:4.11.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
